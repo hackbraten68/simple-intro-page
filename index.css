@@ -1,78 +1,107 @@
-*{
-    margin: 0;    
-}
 body {
-    margin: 0 auto;
-    font-family: 'Oxygen', sans-serif;
-}
-
-img {
-    width: 80%;
-}
-
-header {
-    background: black;
-    /* border: orange 1px solid; */
     text-align: center;
-}
-
-/* .current {
-    border-bottom: 1px white solid;
-} */
-
-nav ul {
-    /* border: 1px red solid; */
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    margin: 0 10%;
-    padding: 0;
-}
-
-nav li {
-    /* border: 1px magenta solid; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 300;
     margin: 0;
-    
-}
-
-nav a {
-    /* border: 1px green solid; */
-    color: white;
-    text-decoration: none;
-    font-weight: 400;
-    padding: 0.25em 0;
-}
-
-nav a:hover,
-nav a:focus {
-    color: seashell;
 }
 
 .container {
-    /* display: flex;
-    flex-direction: row; */
-    max-width: 400px;
+    max-width: 570px;
     margin: 0 auto;
-
 }
 
-.hello-part {
-    /* border: 1px red solid; */
-    text-align: center;
-    background: #000000;
-    color: white;
-   
+h1,
+h2 {
+    font-weight: 300; 
 }
 
-.language-box {
-    /* border: 1px red solid; */
-    background:#2ECC71;
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 42px;
+    margin-top: 0;
+    border-top: solid 1px #c4c4c4;
+    border-bottom: solid 1px #c4c4c4;
     
-
+    padding: 20px 0;
+    margin-bottom: 20px;
 }
 
-.bio-box {
-    /* border: 1px magenta solid; */
-    text-align: center;
-    background: #E74C3C;
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.accent-text {
+    display: block;
+}
+
+h1 .accent-text {
+    font-size: 80px;
+}
+
+h2 .accent-text {
+    font-size: 60px;
+}
+
+.accent-text,
+.name,
+time {
+    font-weight: 900;
+    color: #99D930;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a {
+    color: #99D930;
+    font-weight: 900;
+}
+
+a:hover,
+a:focus {
+    color: #131313;
+}
+
+.small-text {
+    font-size: 16px;
+    margin-top: 5px;
+} 
+
+header,
+section {
+    padding: 100px 0;
+}
+
+.inverse {
+    color: #fff;
+    background: #252525;
+}
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+    background: #fff;
+    color: #252525;
+}
+
+.btn {
+    display: inline-block;
+    color: #252525;
+    text-decoration: none;
+    background: #99D930;
+    padding: 10px 25px;
+    margin-top: 25px;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #252525;
+    color: #fff;
 }
